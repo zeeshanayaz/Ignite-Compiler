@@ -1,0 +1,13 @@
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite-Compiler.csprojResolveAssemblyReference.cache
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.compile.resources
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.ignite.resources
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.LexicalAnalyser.resources
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.Properties.Resources.resources
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite-Compiler.csproj.GenerateResource.Cache
+E:\Projects\Ignite-Compiler\Ignite-Compiler\bin\Debug\Ignite-Compiler.exe.config
+E:\Projects\Ignite-Compiler\Ignite-Compiler\bin\Debug\Ignite-Compiler.exe
+E:\Projects\Ignite-Compiler\Ignite-Compiler\bin\Debug\Ignite-Compiler.pdb
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite-Compiler.exe
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite-Compiler.pdb
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.AboutDeveloper.resources
+E:\Projects\Ignite-Compiler\Ignite-Compiler\obj\Debug\Ignite_Compiler.AboutIgnite.resources
