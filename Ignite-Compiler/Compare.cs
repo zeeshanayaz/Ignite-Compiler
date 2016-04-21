@@ -47,8 +47,13 @@ namespace Ignite_Compiler
                 {
                     classpart = "MAIN";
                     count = 1;
-                    Console.WriteLine("IF part");
-
+                    a = null;
+                }
+                else if (a.Equals("void "))
+                {
+                    classpart = "VOID";
+                    count = 1;
+                    a = null;
                 }
             
                 else
