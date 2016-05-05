@@ -71,6 +71,7 @@
     <Compile Include="ignite.Designer.cs">
       <DependentUpon>ignite.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyValuePsCheck.cs" />
     <Compile Include="lexical.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -73,14 +73,27 @@ namespace Ignite_Compiler
             outputRichTextBox.Text = "";
             //string lineNo = (com.compareMethod(inputRichTextBox.Text));
             //outputRichTextBox.Text = lineNo;
-            com.read(inputRichTextBox.ToString());
-            foreach (string element in Compare.tokkens)
-            {
-                outputRichTextBox.Text = element;
-            }
-            
-            
+                                                //Azhar try
+            //com.read(inputRichTextBox.ToString());
+            //foreach (string element in Compare.tokkens)
+            //{
+            //    outputRichTextBox.Text = element;
+            //}
+                                                //Azhar try
+            Compare.tn = 0;
+            Compare.Token.Clear();
+            com.CompareMethod(inputRichTextBox.Text);   // Use Saved File
 
+            int tnlen = Compare.tn;
+            int i = 0;
+            //TokenHolder[] tok = Assign.Token;
+            List<TokenHolder> tok = Compare.Token;
+
+            while (tnlen > i)
+            {
+                outputRichTextBox.AppendText("( " + tok[i].ClassPart + ", " + tok[i].ValuePart + ", " + tok[i].LineNumber + " )" + "\n");
+                i++;
+            }
         }
 
         private void aboutIgniteToolStripMenuItem_Click(object sender, EventArgs e)         //Show About Ignite Form
@@ -91,6 +104,18 @@ namespace Ignite_Compiler
         private void developersToolStripMenuItem_Click(object sender, EventArgs e)          //Show About Developer Form
         {
             new AboutDeveloper().Show();
+        }
+
+        private void inputRichTextBox_TextChanged(object sender, EventArgs e)
+        {
+            //if (string.IsNullOrWhiteSpace(inputRichTextBox.Text))
+            //{
+            //    generateTokensButton.Enabled = false;
+            //}
+            //else 
+            //{
+            //    generateTokensButton.Enabled = true;
+            //}
         }
 
     }

@@ -228,6 +228,7 @@
             this.inputRichTextBox.Size = new System.Drawing.Size(500, 498);
             this.inputRichTextBox.TabIndex = 0;
             this.inputRichTextBox.Text = "";
+            this.inputRichTextBox.TextChanged += new System.EventHandler(this.inputRichTextBox_TextChanged);
             // 
             // orangeSidebar
             // 
